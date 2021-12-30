@@ -1,0 +1,57 @@
+
+
+public class Publication ( private String title; private double price; private int copies; public 
+int getcopies(){
+return this.copies;
+
+
+public void setcopies(int copies) { this.copies = copies;
+
+public double getprice()( return this.price;
+
+public void setprice(double price){ this.price=price;
+
+public void seIIcopy(int qty){
+System.out.printIn("Total Publication sell: $" + (qty*price));
+
+
+
+
+public class Book extends Publication{ private String author;
+public void ordercopies(int pcopies){ setcopies(getcopies()+pcopies);
+System.out.printIn("Total Order Copirs:-"+(getcopies()+pcopies));
+
+
+public void seIIcopy(int qty) {
+System.out.printIn("Total Book sell: $" + (qty*getprice()));
+
+
+
+
+
+public class Magazine extends Publication( private int orderQty;
+private String currlssue;
+public void RecvNewIssue(String pNewlssue)( setcopies(orderQty); currIssue=pNewIssue;
+
+public void seIIcopy(int qty){
+System.out.printIn("Total Magazine sell: $" +(qty*getprice()));
+
+
+
+
+class Test{
+public static void main(String[] args){ Book obj1 = new Book(); obj1.ordercopies(3);
+Publication obj2= new Book(); obj2.setprice(10); obj2.seIIcopy(3);
+Publication obj3 = new Publication(); obj3.setcopies(3);
+obj3.getcopies(); obj3.setprice(20.3); obj3.getprice(); obj3.seIIcopy(2);
+Publication obj4 = new Magazine(); obj4.setprice(20.3); obj4.seIlcopy(6);
+
+
+
+
+
+Output:
+
+Total Order Copirs:-6 Total Book sell: $30.0
+Total Publication sell: $40.6
+Total Magazine sell: $121.80000000000001

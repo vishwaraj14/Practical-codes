@@ -1,0 +1,49 @@
+
+
+abstract class Shape(
+abstract public void Compute_Area(double a, double b);
+public void CaIcuIate_Area(){
+
+
+
+
+
+
+public class Tringle extends Shape( public double base;
+public double height;
+public void Compute_Area(double base, double height)( this.base=base;
+this.height=height;
+
+
+public void CaIcuIate_Area(){
+System.out.printIn("Area Of TringIe:-"+(0.5*(base*height)));
+
+
+
+
+public class Rectangle extends Shape( public double length;
+public double breadth;
+public void Compute_Area(double length, double breadth)(
+this.Iength=length;
+this.breadth=breadth;
+
+
+public void CaIcuIate_Area()(
+System.out.printIn("Area of Rectangle:-"+(length*breadth));
+
+
+
+
+class Test{
+
+
+
+public static void main(String[] args){ Shape obj1 = new Tringle(); obj1.Compute Area(10.5,20.5); 
+obj1.CaIcuIate_Area();
+Shape obj2 = new Rectangle(); obj2.Compute_Area(5.30,15.10); obj2.CaIcuIate_Area();
+
+
+
+output
+
+Area Of Tringle:-107.625 Area of Rectangle:-80.03

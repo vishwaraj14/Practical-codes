@@ -1,0 +1,27 @@
+﻿
+import java.util.Scanner;
+ public class ExceptionalExample{
+    public static void main(String[] args){
+        try{
+            
+            int num1;
+            int num2;
+            System.out.println("Enter two Number:-\n");
+            Scanner s=new Scanner(System.in);
+            num1=Integer.parseInt(s.next());
+            num2=Integer.parseInt(s.next()); 
+            System.out.println("Division is;-"+num1/num2);
+        }
+        catch(ArithmeticException e){
+            
+            System.out.println("Cant be divide by zero");
+        }
+        
+    }
+    output
+Enter two Number:-
+23
+0
+Cant be divide by zero
+
+	

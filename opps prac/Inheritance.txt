@@ -1,0 +1,39 @@
+Programmer Information:-
+Name=Ram, 
+Adress:-Shrirampur, 
+Mail:- ram123@gmail.com, 
+ID Number:-6,
+Mobile number:-9284543702
+Gross Salary is:-19710.438000000002
+Net Salary is:- 20610.458000000002
+
+Team Leader Information:-
+Name=Sham, 
+Adress:-Nagar, 
+Mail:- sham213@gmail.com, 
+ID Number:-7,
+Mobile number:-9112772159
+Gross Salary is:-4380.2628
+Net Salary is:- 4580.2748
+
+Assistant Project Manager Information:-
+Name=Sundar, 
+Adress:-Sangmner, 
+Mail:- Sundar98@gmail.com, 
+ID Number:-34,
+Mobile number:-9876678959
+Gross Salary is:-2628.2627999999995
+Net Salary is:- 2748.2747999999997
+
+
+
+
+
+Project Manager Information:-
+Name=Ravi, 
+Adress:-Pune, 
+Mail:- ravi8@gmail.com, 
+ID Number:-84,
+Mobile number:-7007657892
+Gross Salary is:-14815.612799999999
+Net Salary is:- 15492.1248
